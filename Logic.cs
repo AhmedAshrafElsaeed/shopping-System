@@ -6,10 +6,6 @@ namespace shopping_System
 {
     public class Logic
     {
-        // Thank you for notifying me to this important point ( lazy ) I really benefited a lot from your feedbacks 
-        // and this allowing me to search about what is the thread and how this affect on it and so on 
-        // Thank you for your help without expecting anything in return .. and forgive me about my bad English
-        // in this code I used some expression in LINQ although I didn't take it : by searching about it 
 
 
         private static readonly Lazy<Logic> _instance = new Lazy<Logic>(() => new Logic());
